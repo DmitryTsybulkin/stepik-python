@@ -1,0 +1,7 @@
+a = (input())
+b = int(a.count('g'))
+e = int(a.count('c'))
+x = int(a.count('G'))
+y = int(a.count('C'))
+c = len(a)
+print((b+e+x+y)/c * 100)
